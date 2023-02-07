@@ -1,6 +1,6 @@
+ORG 0x000
 a:	DD 0xAAAABBBBCCCCDDDD
 b:	DD 0x4444333322221111
-ORG 0x00000
 c:	DM 8
 
 	
@@ -17,3 +17,10 @@ c:	DM 8
 
 	addi x16, x0, c
 	sd x7, 0(x16)
+	sd x8, 8(x16)
+	sd x9, 16(x16)
+	sd x10, 24(x16)
+	sd x11, 32(x16)
+	sd x12, 40(x16)
+	sd x13, 48(x16)
+	sd x14, 56(x16)
